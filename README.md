@@ -1,7 +1,4 @@
----
-marp: false
----
-```markdown
+````markdown
 # Deepfake Detection
 
 A web-based application that uses the Hugging Face Vision Transformer (ViT) model to detect potential deepfake images. This tool provides a user-friendly interface for uploading images and receiving real-time analysis of whether an image is likely to be real or fake.
@@ -28,9 +25,10 @@ Before running this application, make sure you have:
 Clone the repository or download the source code:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/NharnahQwami/deepfake-detection.git
 cd deepfake-detector
 ```
+````
 
 Create a virtual environment (recommended):
 
@@ -147,10 +145,6 @@ Potential enhancements that could be added:
 - User authentication
 - API documentation for external integration
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - Vision Transformer model by Wvolf on Hugging Face
@@ -168,4 +162,7 @@ If you encounter any issues or have questions:
 - Create an issue in the repository
 
 **Note:** This tool is for educational and research purposes. While it can help identify potential deepfakes, it should not be the sole determining factor in verifying image authenticity.
+
+```
+
 ```
