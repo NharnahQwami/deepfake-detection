@@ -14,7 +14,7 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load model and processor globally
-model = ViTForImageClassification.from_pretrained("Wvolf/ViT_Deepfake_Detection")
+model = ViTForImageClassification.from_pretrained("Wvolf/ViT_Deepfake_Detection", num_labels=2)
 processor = ViTImageProcessor.from_pretrained("Wvolf/ViT_Deepfake_Detection")
 
 def allowed_file(filename):
