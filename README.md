@@ -1,3 +1,4 @@
+````markdown
 # Deepfake Detection
 
 A web-based application that uses the Hugging Face Vision Transformer (ViT) model to detect potential deepfake images. This tool provides a user-friendly interface for uploading images and receiving real-time analysis of whether an image is likely to be real or fake.
@@ -161,4 +162,7 @@ If you encounter any issues or have questions:
 - Create an issue in the repository
 
 **Note:** This tool is for educational and research purposes. While it can help identify potential deepfakes, it should not be the sole determining factor in verifying image authenticity.
+
+```
+
 ```
